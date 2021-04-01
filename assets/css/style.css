@@ -30,6 +30,11 @@ body {
     blink-caret .75s step-end infinite;
 }
 
+.nav-box {
+  display: inline-block;
+  margin-top: 15px;
+}
+
 
 
 /* The typing effect */

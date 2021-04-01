@@ -20,11 +20,11 @@ body {
   margin-top: 15vmin;
   position: relative;
   transition: 0.6s ease;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   padding-right: 10%;
 }
 
-.btn {
+.btn-join {
   text-decoration: none;
   color: #fff;
   border-style: solid;
@@ -35,16 +35,20 @@ body {
   padding: 15px;
 }
 
-.btn:hover {
+.btn-join:hover {
   box-shadow: 10px 10px 15px 5px rgba(1,1,1,100);
   transform: rotate(4deg);
   background-color: #e9281b;
   transition: 0.5s;
 }
 
+.nav-box {
+  display: inline-block;
+  margin-top: 10px
+}
 
 footer{
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 0px 20px 20px;
 }

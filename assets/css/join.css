@@ -54,6 +54,10 @@ width: 7%;
   padding-left: 5%;
 }
 
+.nav-box {
+  display: inline-block;
+}
+
 footer{
   color: #fff;
   text-align: center;
