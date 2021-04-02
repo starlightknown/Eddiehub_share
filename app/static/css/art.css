@@ -66,3 +66,43 @@ body
 	/*transition-delay: 0.5s;*/
 }
 
+body {
+  background-color: #343434;
+}
+
+.carousel {
+	backdrop-filter: blur(15px);
+}
+
+.carousel-item {
+	width: 100vw;
+	height: 100vh;
+}
+
+.slide-image {
+	height: 100vh;
+}
+
+.carousel-item img {
+	max-height: 100vh !important;
+	margin: auto !important;
+	max-width: 100vw;
+}
+
+.header-form {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+
+.menu-btn, .close-btn {
+	z-index: 1000;
+}
+

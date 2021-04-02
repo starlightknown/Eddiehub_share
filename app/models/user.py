@@ -35,7 +35,7 @@ class User(db.Model):
 
         if not instance:
             instance = User(
-                uuid4(),
+                str(uuid4()),
                 data['login'],
                 data['avatar_url'],
                 data['id'],

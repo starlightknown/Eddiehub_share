@@ -4,7 +4,7 @@ from flask import Flask, render_template
 from werkzeug.middleware.shared_data import SharedDataMiddleware
 
 from . import settings, controllers, models
-from .extensions import db
+from .extensions import db, s3
 
 project_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -40,6 +40,11 @@ def register_extensions(app):
     app.wsgi_app = SharedDataMiddleware(app.wsgi_app, {
         '/uploads': settings.UPLOAD_FOLDER
     })
+
+    response = s3.list_buckets()
+    print('buckets:')
+    for bucket in response['Buckets']:
+        print(f' {bucket["Name"]}')
 
     return None
 

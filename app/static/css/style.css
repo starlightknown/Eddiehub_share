@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: #343434;
   background: url(/static/img/ed.gif) no-repeat;
   background-position: center;
   background-size: 100% 100%;
