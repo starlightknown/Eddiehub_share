@@ -32,7 +32,7 @@ body
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../images/showme.png);
+	background: url(../img/showme.png);
 	background-attachment: fixed;
 	transform-style: preserve-3d;
 	/*transform: perspective(500px) rotateX(0deg);*/
@@ -52,7 +52,7 @@ body
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../images/collage.jpg);
+	background: url(../img/collage.jpg);
 	background-attachment: fixed;
 	transform-style: preserve-3d;
 	/*transform: perspective(500px) rotateX(-90deg);*/

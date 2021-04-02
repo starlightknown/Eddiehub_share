@@ -8,20 +8,21 @@
 }
 
 body {
-  background: url(../images/a.gif) no-repeat;
+  background: url(../img/a.gif) no-repeat;
   background-position: center;
   background-size: 100% 100%;
   background-attachment: fixed;
 }
+
 .about {
-  margin-left: 10vmin;
+  width: 60vw;
+  margin: auto;
   color: white;
   font-size: 1.5vmax;
-  margin-top: 15vmin;
   position: relative;
   transition: 0.6s ease;
   padding-bottom: 5%;
-  padding-right: 10%;
+  /* padding-right: 10%; */
 }
 
 .btn {
@@ -42,9 +43,6 @@ body {
   transition: 0.5s;
 }
 
-
-footer{
-  color: #fff;
-  text-align: center;
-  padding: 20px;
+p {
+  text-align: justify;
 }

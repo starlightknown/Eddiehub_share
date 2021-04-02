@@ -1,0 +1,33 @@
+{% extends "layouts/layout.html" %}
+
+{% block header %}
+<title>About</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="about">
+  <h1 class="mt-5">About <br> EddieHub</h1>
+  <p>EddieHub is an open source organisation focusing on reciprocal collaboration between members of the tech
+    community to encourage and promote communication, best practices and technical expertise in an inclusive and
+    welcoming environment.
+
+    We believe Open Source is for everyone, yes you! Open Source is not about code, it is about people and
+    collaboration. We are invested in getting you those green squares on GitHub! Contributing to Open Source
+    Software (OSS) is a great way for you to learn, work with different people and also network.
+  </p>
+  <h2>Why should you join EddieHub?</h2>
+  <p>At EddieHub we provide a hands-on learning experience for young open source enthusiasts who are passionate to
+    contribute, learn and grow together as a community. We belive that open-source is not just defined by coding! A
+    collaborative approach is what we follow and encourage each member to interact and "Code in Public". Join a
+    fast-growing community as everyone has role here. EddieHub has won MLH LHD-Build because of the awesome team
+    work and collaboration!</p>
+  <br>
+
+  <a href="/join" class="btn">Join Us!</a>
+</div>
+
+<footer>
+  <p>Copyright © 2021 EddieHub. All rights reserved.</p>
+</footer>
+{% endblock %}

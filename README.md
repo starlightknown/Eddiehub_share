@@ -12,7 +12,7 @@ Local Hack Day: Share is a week-long celebration of sharing everything you’ve 
 <h1 align="center"> Join EddieHub in MLH-LHD: Share</h1>
 
 <h2 align="center">1. Go to <a href="https://discord.mlh.io">[MLH-LHD:Share]</a></h2>
-<p align="center"><img src="./assets/images/mlh-welcome.png"></p> 
+<p align="center"><img src="./app/static/img/mlh-welcome.png"></p> 
 
 <h2 align="center">2. Login </h2> 
 
@@ -20,15 +20,15 @@ Local Hack Day: Share is a week-long celebration of sharing everything you’ve 
 details like this</h2>
 
 <h2 align="center">Add your first and last name</h2>
-<p align="center"><img src="./assets/images/main1.png"></p>
+<p align="center"><img src="./app/static/img/main1.png"></p>
 <h2 align="center">Add your Email</h2>
-<p align="center"><img src="./assets/images/main2.png"></p>
+<p align="center"><img src="./app/static/img/main2.png"></p>
 
 <h2 align="center">Accept Code of Conduct and Discord rules</h2>
-<p align="center"><img src="./assets/images/main3.png"></p>
+<p align="center"><img src="./app/static/img/main3.png"></p>
 
 <h2 align="center">Select EddieHub in Guild Membership</h2>
-<p align="center"><img src="./assets/images/lhd-guild.png"></p>
+<p align="center"><img src="./app/static/img/lhd-guild.png"></p>
 
 <h2 align="center">Click on Submit !! You are done !!</h2>
   
@@ -41,7 +41,7 @@ details like this</h2>
 
 
 <h3 align="center">PS - you get green squares daily</h3>
-<img src="./assets/images/ed.gif" width="100%">
+<img src="./app/static/img/ed.gif" width="100%">
 
 ## Contributors ✨
 
